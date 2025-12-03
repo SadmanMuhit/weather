@@ -46,7 +46,7 @@ export async function getWeatherData(
       };
     }
     return {
-      error: error instanceof Error ? error.message : "Failed to fatch weather data"
+      error: error instanceof Error ? error.message : "fill the input"
     }
   }
 }
